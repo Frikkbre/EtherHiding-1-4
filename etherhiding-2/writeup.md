@@ -1,4 +1,11 @@
 **Task Description:**
+How many sessions does the gaming site's analytics cookie indicate? Submit the decimal session count, not the cookie name or the complete cookie.
+
+Do not hash it.
+use the same pcap file as in Etherhiding 1
+
+flag format: CTFkom{...}
+flag example: CTFkom{100}
 
 **Solution Steps:**
 1. Opened the challenge pcap and filtered for `http.cookie` to find HTTP requests containing cookies. ![step-1](step-1.png)

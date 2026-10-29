@@ -1,4 +1,8 @@
 **Task Description:**
+Recover the full URL returned by the first smart contract.
+
+flag format: CTFkom{...}
+use the same pcap file as in etherhiding 1
 
 **Solution Steps:**
 1. Opened the challenge pcap in Wireshark. ![](step-1.png)
